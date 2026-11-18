@@ -1,0 +1,14 @@
+[package]
+name = "thejas32-hal"
+version = "0.2.0"
+edition = "2021"
+description = "embedded-hal v1.0 & Embassy async driver for C-DAC VEGA THEJAS32"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+thejas32-pac = { path = "../thejas32-pac" }
+embedded-hal = "1.0.0"
+embedded-io = "0.6.1"
+critical-section = "1.1"
+embassy-time-driver = "0.1"
+riscv = "0.11"
